@@ -1,0 +1,24 @@
+# Local env files -- the .env.example template is committed
+.env
+.env.*
+!.env.example
+
+# Local runtime data: screenshots, traces, videos
+data/
+
+# Python
+.venv/
+__pycache__/
+*.egg-info/
+.pytest_cache/
+.adk/
+
+# Node (local Playwright MCP only)
+node_modules/
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+.logs/

@@ -1,0 +1,8 @@
+{
+  "name": "aegisqa-backend-browsers",
+  "private": true,
+  "description": "Local development only: provides `npx @playwright/mcp`, which the backend starts for its browsers. The Docker image installs it itself.",
+  "dependencies": {
+    "@playwright/mcp": "0.0.78"
+  }
+}

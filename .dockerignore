@@ -1,0 +1,9 @@
+**/node_modules
+**/.venv
+**/.env
+**/data
+**/__pycache__
+**/*.egg-info
+.git
+tests
+docs
